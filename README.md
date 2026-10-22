@@ -53,11 +53,14 @@ The primary objective is to simulate a real-world corporate IT environment featu
 - Launched **Active Directory Users and Computers** (`dsa.msc`).
 - Created a structured OU hierarchy representing corporate regional branches and operational departments (e.g., HR, Finance, IT).
 - Provisioned domain user accounts with proper group assignments, delegating elevated privileges to designated Domain Admin accounts.
+<img width="1013" height="802" alt="image" src="https://github.com/user-attachments/assets/58bd915b-82cd-4f66-8733-43508fa22d98" />
 
 #### Windows 11 Workstation Integration
 1. Deployed a Windows 11 Enterprise virtual machine.
 2. Updated Client IPv4 DNS settings to point directly to `FileServer01`'s static IP.
+   <img width="1017" height="797" alt="image" src="https://github.com/user-attachments/assets/aa47d27a-3271-4ef9-a160-5a3b56f9477c" />
 3. Joined the workstation to the `SeafoodKing.local` domain.
+   <img width="1015" height="802" alt="image" src="https://github.com/user-attachments/assets/ceb7cb67-28f1-4c3c-9857-9596c88b7b84" />
 4. Relocated the newly added computer object into its respective departmental OU.
 
 ---
