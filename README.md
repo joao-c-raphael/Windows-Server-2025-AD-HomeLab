@@ -71,14 +71,17 @@ The primary objective is to simulate a real-world corporate IT environment featu
 1. Created a centralized data directory on the host storage: `C:\CompanyData`.
 2. Structured departmental sub-directories (e.g., `C:\CompanyData\HR`, `C:\CompanyData\Finance`).
 3. Created dedicated Active Directory **Security Groups** corresponding to each department and assigned respective users.
-
+   <img width="1017" height="803" alt="image" src="https://github.com/user-attachments/assets/c95c95f3-954d-42a2-80e5-d601cc1df46f" />
+   
 #### Permission Model Configuration
 - **NTFS Permissions:**
-  - Explicitly configured NTFS permissions per department directory (e.g., granting `Modify` permissions strictly to the `HR-Group` while explicitly revoking non-essential access).
+  - Explicitly configured NTFS permissions per department directory (e.g., granting `Modify` permissions strictly to the `HR` group while explicitly revoking non-essential access).
+    <img width="1022" height="802" alt="image" src="https://github.com/user-attachments/assets/5f6c2d60-d9c3-4f92-b546-5e69f17049d0" />
   - Disabled permission inheritance where necessary to enforce strict confidentiality.
 - **SMB Share Permissions:**
   - Configured **Advanced Sharing** on `C:\CompanyData` with appropriate network access thresholds.
-
+    <img width="1025" height="807" alt="image" src="https://github.com/user-attachments/assets/6a8c9b25-83b5-44e0-a213-5fcd2e84cb80" />
+    
 ---
 
 ### Phase 5: Hardening Security via Group Policy Management
