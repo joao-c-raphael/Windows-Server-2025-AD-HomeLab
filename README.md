@@ -69,7 +69,6 @@ These addresses are examples. Select an unused subnet that matches your VMware v
 1. Open Server Manager.
 2. Select **Add Roles and Features**.
 <img width="1012" height="797" alt="image" src="https://github.com/user-attachments/assets/85bd6ffe-096b-448e-9516-613719e9f54c" />
-<img width="1012" height="797" alt="image" src="https://github.com/user-attachments/assets/242e97f3-d711-4658-a176-b9dd2f357533" />
 3. Install **Active Directory Domain Services (AD DS)**.
 4. Complete the installation and select **Promote this server to a domain controller**.
 5. Choose **Add a new forest**.
@@ -79,25 +78,11 @@ These addresses are examples. Select an unused subnet that matches your VMware v
 **Validation:**
 - Open Active Directory Users and Computers.
 - Confirm the `SeafoodKing.local` domain appears.
-- Verify that the domain controller's DNS service is functioning.
 
 ### 3. Create Organizational Units, Users, and Groups
 
 Use Active Directory Users and Computers to create a basic organizational structure.
-
-Example OU layout:
-
-```text
-SeafoodKing.local
-├── Company
-│   ├── Users
-│   │   ├── HR
-│   │   ├── IT
-│   │   ├── Finance
-│   │   └── Operations
-│   ├── Computers
-│   └── Groups
-```
+<img width="1013" height="802" alt="image" src="https://github.com/user-attachments/assets/83776163-75a8-4a14-b8d1-fd1fd9c7dd5c" />
 
 Implementation steps:
 
