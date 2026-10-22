@@ -78,7 +78,7 @@ The primary objective is to simulate a real-world corporate IT environment featu
   - Explicitly configured NTFS permissions per department directory (e.g., granting `Modify` permissions strictly to the `HR` group while explicitly revoking non-essential access).
     <img width="1022" height="802" alt="image" src="https://github.com/user-attachments/assets/5f6c2d60-d9c3-4f92-b546-5e69f17049d0" />
   - Disabled permission inheritance where necessary to enforce strict confidentiality.
-- **SMB Share Permissions:**
+- **Share Permissions:**
   - Configured **Advanced Sharing** on `C:\CompanyData` with appropriate network access thresholds.
     <img width="1025" height="807" alt="image" src="https://github.com/user-attachments/assets/6a8c9b25-83b5-44e0-a213-5fcd2e84cb80" />
     
