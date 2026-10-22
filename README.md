@@ -11,7 +11,7 @@ This project demonstrates the design, deployment, and configuration of an enterp
 The primary objective is to simulate a real-world corporate IT environment featuring:
 - A centralized Windows Server 2025 Domain Controller (`FileServer01`).
 - Domain network integration for Windows 11 Enterprise clients.
-- Automated Role-Based Access Control (RBAC) through tailored Organizational Units (OUs), Security Groups, and NTFS/Share permissions.
+- Role-Based Access Control (RBAC) through tailored Organizational Units (OUs), Security Groups, and NTFS/Share permissions.
 - Hardened domain-wide security using enforced Group Policy Objects (GPOs).
 
 ---
