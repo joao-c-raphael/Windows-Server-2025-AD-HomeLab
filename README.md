@@ -1,4 +1,4 @@
-# Windows Server 2025 Active Directory Homelab
+# Windows Server 2025 Active Directory Home Lab
 
 ![Windows Server 2025](https://img.shields.io/badge/Windows%20Server-2025-0078D6?style=for-the-badge&logo=windows-server&logoColor=white)
 ![Windows 11](https://img.shields.io/badge/Windows%2011-Enterprise-0078D7?style=for-the-badge&logo=windows11&logoColor=white)
