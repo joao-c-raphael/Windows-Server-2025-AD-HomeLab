@@ -40,6 +40,7 @@ The primary objective is to simulate a real-world corporate IT environment featu
 
 ### Phase 2: Active Directory Domain Services Deployment
 1. Added the **Active Directory Domain Services (AD DS)** and **DNS Server** roles via Server Manager.
+   <img width="1012" height="797" alt="image" src="https://github.com/user-attachments/assets/e7d13eb9-1bc9-4e33-9a2e-d120089c0381" />
 2. Promoted `FileServer01` to a Domain Controller for a new forest:
    - **Root Domain Name:** `SeafoodKing.local`
 3. Configured static IPv4 networking parameters on the Domain Controller network interface.
