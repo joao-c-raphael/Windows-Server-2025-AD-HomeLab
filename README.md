@@ -90,12 +90,14 @@ Using the **Group Policy Management Console** (`gpmc.msc`), enforced company-wid
 
 * 🔐 **Domain Password Policy**
   - Configured account lockouts, minimum password length, complexity standards, and password expiration rules.
+    <img width="778" height="560" alt="image" src="https://github.com/user-attachments/assets/a247e125-19f6-4550-a87c-33367b4e6b38" />
 * 🖼️ **Standardized Desktop Wallpaper Policy**
   - Enforced a uniform corporate background image across all domain-joined desktop instances (`User Configuration`).
 * 🚫 **Control Panel Restriction**
   - Prevented non-administrative users from modifying system configurations by enabling *Prohibit access to Control Panel and PC settings*.
 * 💾 **Removable Storage Device Access Control**
   - Prevented potential data exfiltration and USB malware entry by enforcing *Deny all access to removable storage classes*.
+    <img width="1005" height="665" alt="image" src="https://github.com/user-attachments/assets/99e57c83-4ccb-453c-8120-68912e06a42c" />
 
 ---
 
